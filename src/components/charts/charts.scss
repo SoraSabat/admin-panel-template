@@ -1,0 +1,11 @@
+@import "../../style/mixins.scss";
+
+.chart {
+	@include box-shadow;
+	margin: 20px;
+	padding: 20px;
+
+	.chartTitle {
+		margin-bottom: 20px;
+	}
+}

@@ -1,0 +1,48 @@
+@import '../../style/mixins.scss';
+
+.featured {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	
+	.featuredItem {
+		flex: 1;
+		margin: 0px 20px;
+		padding: 30px;
+		@include box-shadow;
+
+		.featuredTitle {
+			font-size: 20px;
+		}
+
+		.featuredMoneyContainer {
+			display: flex;
+			align-items: center;
+			margin: 10px 0px;
+
+			.featuredMoney {
+				font-size: 30px;
+				font-weight: bold;
+			}
+
+			.featuredMoneyRate {
+				margin-left: 20px;
+				display: flex;
+				align-items: center;
+
+				.featuredIcon {
+					font-size: 14px;
+					margin-left: 5px;
+					color: green;
+					&.negative {
+						color: red;
+					}
+				}
+			}
+		}
+		.featuredSub {
+			font-size: 15px;
+			color: gray;
+		}
+	}
+}
