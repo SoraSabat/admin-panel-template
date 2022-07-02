@@ -1,6 +1,5 @@
 import './sidebar.scss'
 import { AttachMoney, BarChartOutlined, ChatBubbleOutline, DynamicFeed, LineStyle, MailOutline, PermIdentity, Report, Storefront, Timeline, TrendingUp, WorkOutline } from '@mui/icons-material';
-import { BarChart } from 'recharts';
 
 const Sidebar = () => {
 	return (

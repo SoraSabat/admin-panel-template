@@ -1,0 +1,42 @@
+@import '../../style/mixins.scss';
+
+.user {
+	flex: 4;
+	padding: 20px;
+
+	.userTitleContainer {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.userAddButton {
+			width: 80px;
+			border: none;
+			border-radius: 5px;
+			padding: 5px;
+			background-color: teal;
+			cursor: pointer;
+			color: white;
+			font-size: 16px;
+		}
+	}
+
+	.userContainer {
+		display: flex;
+		margin-top: 20px;
+
+		.userShow {
+			@include box-shadow;
+			flex: 1;
+			padding: 20px;
+		}
+
+		.userUpdate {
+			@include box-shadow;
+			flex: 2;
+			padding: 20px;
+			margin-left: 20px;
+		}
+	}
+
+}

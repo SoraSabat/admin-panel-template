@@ -48,3 +48,86 @@ export const userData = [
 		"Active Users": 3000,
 	},
 ];
+
+export const userRows = [
+	{
+		id: 1,
+		user: 'Jon Snow',
+		avatar: 'https://i.imgur.com/8cMQE23.jpg?1',
+		email: 'jon@gmail.com',
+		status: 'active',
+		transaction: '$120'
+	},
+	{
+		id: 2,
+		user: 'Jon Snow',
+		avatar: 'https://i.imgur.com/8cMQE23.jpg?1',
+		email: 'jon@gmail.com',
+		status: 'inactive',
+		transaction: '$120'
+	},
+	{
+		id: 3,
+		user: 'Jon Snow',
+		avatar: 'https://i.imgur.com/8cMQE23.jpg?1',
+		email: 'jon@gmail.com',
+		status: 'active',
+		transaction: '$120'
+	},
+	{
+		id: 4,
+		user: 'Jon Snow',
+		avatar: 'https://i.imgur.com/8cMQE23.jpg?1',
+		email: 'jon@gmail.com',
+		status: 'inactive',
+		transaction: '$120'
+	},
+	{
+		id: 5,
+		user: 'Jon Snow',
+		avatar: 'https://i.imgur.com/8cMQE23.jpg?1',
+		email: 'jon@gmail.com',
+		status: 'active',
+		transaction: '$120'
+	},
+	{
+		id: 6,
+		user: 'Jon Snow',
+		avatar: 'https://i.imgur.com/8cMQE23.jpg?1',
+		email: 'jon@gmail.com',
+		status: 'active',
+		transaction: '$120'
+	},
+	{
+		id: 7,
+		user: 'Jon Snow',
+		avatar: 'https://i.imgur.com/8cMQE23.jpg?1',
+		email: 'jon@gmail.com',
+		status: 'active',
+		transaction: '$120'
+	},
+	{
+		id: 8,
+		user: 'Jon Snow',
+		avatar: 'https://i.imgur.com/8cMQE23.jpg?1',
+		email: 'jon@gmail.com',
+		status: 'active',
+		transaction: '$120'
+	},
+	{
+		id: 9,
+		user: 'Jon Snow',
+		avatar: 'https://i.imgur.com/8cMQE23.jpg?1',
+		email: 'jon@gmail.com',
+		status: 'active',
+		transaction: '$120'
+	},
+	{
+		id: 10,
+		user: 'Jon Snow',
+		avatar: 'https://i.imgur.com/8cMQE23.jpg?1',
+		email: 'jon@gmail.com',
+		status: 'active',
+		transaction: '$120'
+	},
+];
